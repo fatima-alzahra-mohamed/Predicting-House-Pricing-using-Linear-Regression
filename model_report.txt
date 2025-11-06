@@ -1,0 +1,31 @@
+============================================================
+HOUSING PRICE PREDICTION - MODEL REPORT
+============================================================
+
+Model Information:
+------------------------------------------------------------
+  Best Model Type: lasso
+  Ensemble Method: Lasso (Best Single)
+  Number of Features: 16
+  Training Samples: 425
+  Testing Samples: 107
+
+Performance Metrics:
+------------------------------------------------------------
+  Test RMSE: 1042786.4805
+  Test MAE: 749710.6408
+  Test R²: 0.7193
+  Mean Percentage Error: 16.34%
+  Median Percentage Error: 10.48%
+
+Model Parameters:
+------------------------------------------------------------
+  alpha: 0.0001
+
+============================================================
+PREDICTION ACCURACY BREAKDOWN
+============================================================
+  Predictions within 5% error:  18.7%
+  Predictions within 10% error: 45.8%
+  Predictions within 15% error: 59.8%
+  Predictions within 20% error: 72.0%
